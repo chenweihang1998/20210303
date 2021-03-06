@@ -1,6 +1,7 @@
 .watch_area{
     height: 666px;
     background: url(https://georgebrata.ro/alege-un-website/003-watch-master/img/header-bg.png) center;
+    background-size: 100%;
 }
 .header{
     /* border: red 1px solid; */
@@ -362,7 +363,8 @@
 }
 .que_area{
     background: url(/img/faq-bg.jpg) center;
-    height: 600px;
+    height: 540px;
+    background-size: 100%;
 }
 .question_card{
     margin-top: 20px;
