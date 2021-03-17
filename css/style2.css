@@ -4,9 +4,10 @@
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
 }
 .top_area{
-    opacity: .95;
+    opacity: .85;
 }
 .header{
+    margin-top: 10px;
     height: 50px;
 }
 .container{
@@ -79,8 +80,8 @@
     justify-content: center !important;
 }
 .banner-content .form-wrap {
-    /* background-color: #a998f6; */
-    /* border: 1px solid #b8aaf3; */
+    background-color: #a998f6;
+    border: 1px solid #b8aaf3;
     padding: 20px 0;
     margin: 40px 0;
 }
@@ -430,7 +431,7 @@
     padding: 10px 25px;
 }
 .home-vudio{
-    background: url(/img/blog1.jpg);
+    background: url(/img/blog1.jpg) center;
     background-size: cover !important;
     padding: 0px 20px;
     margin-bottom: 30px;
@@ -593,4 +594,60 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
+}
+.buttons{
+    margin-left: 80px;
+    background: #fff;
+    display: flex;
+    padding: 0px 30px 0px 20px;
+    margin-right: 20px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+    color: #222;
+}
+.buttons a {
+    color: #222;
+}
+.buttons p span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+}
+.flex-row {
+    flex-direction: row !important;
+}
+.desc p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+}
+.buttons-2{
+    background: #fff;
+    display: flex;
+    padding: 0px 30px 0px 20px;
+    margin-right: 20px;
+    border: 1px solid #eee;
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+    color: #222;
+}
+.buttons-2 a {
+    color: #222;
+}
+.buttons-2 p span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+}
+.buttons img,.buttons-2 img{
+    width: 60px;
+    height: 64px;
+    margin-top: 10px;
+}
+.cat-list li:hover{
+    background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
+}
+.text_card_top .btns-2 li:hover{
+    background-color: #49e4fa;
 }
