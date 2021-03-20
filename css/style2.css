@@ -1,10 +1,13 @@
 .top_area{
-    background: url(/img/header-bg.jpg);
     height: 666px;
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
 }
+.top-area-backgoud{
+    background:url(/img/header-bg.jpg);
+    height: 666px;
+}
 .top_area{
-    opacity: .85;
+    opacity: .95;
 }
 .header{
     margin-top: 10px;
@@ -431,7 +434,7 @@
     padding: 10px 25px;
 }
 .home-vudio{
-    background: url(/img/blog1.jpg) center;
+    background: url(../img/blog1.jpg);
     background-size: cover !important;
     padding: 0px 20px;
     margin-bottom: 30px;
