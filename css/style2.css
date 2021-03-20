@@ -3,7 +3,7 @@
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
 }
 .top-area-backgoud{
-    background:url(/img/header-bg.jpg);
+    background:url(../img/header-bg.jpg);
     height: 666px;
 }
 .top_area{
