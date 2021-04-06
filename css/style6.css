@@ -1,0 +1,479 @@
+.top{
+		/* border: 3px red solid; */
+		/* height: 300px; */
+		list-style: none;
+		text-align: left;
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	header{
+		padding-top: 80px;
+		padding-bottom: 80px;
+		max-width: 1020px;
+	}
+	body{
+		background: #FFFFFF;
+		font-family: -apple-system,Helvetica Neue,Helvetica,Arial,sans-serif;
+		color: #01161e;
+		font-weight: 700;
+		line-height: 1.3
+		 
+	}
+	.center{
+		margin-top: 70px;
+		position: relative;
+		align-items: center;
+		z-index: 2;
+		/* border: 3px red solid; */
+		background: url(../img/Light.9d63ffe2.jpg) 50%;
+		background-size: cover;
+	}
+	section{
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+	
+	header ul{
+		display: flex;
+		list-style: none;
+		padding: 60px 0 30px;
+	}
+	header ul li{
+		margin-right: 60px;
+	}
+	header ul .switch-icon{
+		position: relative;
+		display: inline-flex;
+		width: 50px;
+		height: 32px;
+		border-radius: 20px;
+		transition: transform .2s ease;
+	}
+	header ul .switch-icon input{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		border-radius: 40px;
+		appearance: none;
+		z-index: 1;
+		border: none;
+		box-shadow: none;
+		cursor: pointer;
+		outline: none;
+	}
+	header ul li p{
+		font-size: 24px;
+		font-weight: 700;
+		margin-top: 16px;
+	}
+	header ul li small{
+		position: relative;
+		background: #FFBF00;
+		color: #FFFFFF;
+		font-size: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+		top: 4px;
+		padding: 4px 10px 5px;
+		border-radius: 20px;
+		white-space: nowrap;
+	}
+	header p.download,header p.download a{
+		display: inline-flex;
+		flex-direction: column;
+	}
+	header p.download a:hover{
+		color: #FFFFFF;
+		background: #000000;
+		border-color: #000000;
+	}
+	header p.download a{
+		position: relative;
+		color: inherit;
+		border-radius: 16px;
+		border: 3px solid black;
+		padding: 12px 24px 16px 80px;
+		margin-bottom: 16px;
+		text-decoration: none;
+		transition: color .1s ease-in-out,background .1s ease-in-out;
+	}
+	header p.download a svg{
+		position: absolute;
+		left: 24px;
+		top: 18px;
+	}
+	header p.download strong{
+		font-size: 24px;
+		font-weight: 700;
+		padding-bottom: 4px;
+	}
+	header p.download small{
+		font-size: 16px;
+		font-weight: 500;
+		opacity: .7;
+		
+	}
+
+	
+	body header h1{
+		display: inline;
+		position: relative;
+		left: -6px;
+		line-height: 1;
+		color: transparent;
+		font-size: 120px;
+		font-weight: 800;
+		background: linear-gradient(to right,#F5A9F2, #0000FF);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		
+	}
+	body header h2{
+		/* line-height: 50px; */
+		font-size: 50px;
+		font-weight: 800;
+		line-height: 1.2;
+		background: linear-gradient(to right,#F5A9F2, #0000FF);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-top: 0px;
+	}
+
+
+	header p.download small{
+		font-size: 16px;
+		font-weight: 500;
+		color: #01161e;
+		opacity: .7;
+		display: block;
+		
+	}
+	header p.download small em{
+		font-style: normal;
+		opacity: .5;
+	}
+
+
+		/* border: 3px red solid; */
+	/* 	background-repeat: space repeat;
+		background-repeat: repeat-x; */
+	
+    .Umbra{
+		background: url(../img/LightWindow.ab6814c6.png) no-repeat;
+		background-size: 540px 266px;
+		box-shadow: 0 0 .5px .5px rgba(1,22,30,.1),0 0 0 1px rgba(1,22,30,.025),0 0 20px rgba(1,22,30,.2),0 20px 20px 0 rgba(1,22,30,.1);
+	    position: relative;
+	    width: 540px;
+	    height: 266px;
+	    border-radius: 4px;
+		margin-bottom: -36px;
+		z-index: 2;
+	}
+
+	aside{
+		position: relative;
+		margin-top: -120px;
+		max-width: 1120px;
+		z-index: 2
+	}
+	aside #features .feature-grid li svg{
+		flex-shrink: 0;
+		margin: 4px 16px 0 0;
+	}
+	aside #features .overview{
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		text-align: left;
+	}
+	aside #features .overview img{
+		margin-right: 18px;
+	}
+	aside #features .overview p{
+		font-weight: 500;
+		max-width: 600px;
+	}
+
+
+	
+	
+	.signoff,aside,header{
+		position: relative;
+		margin: 0 auto;
+		padding: 0 80px;
+		width: 100%;
+	}
+	aside #features .feature-grid{
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		margin: 30px -16px 0;
+		text-align: left;
+	}
+	.feature-grid li{
+		display: flex;
+		font-size: 16px;
+		font-weight: 600;
+		width: calc(50% - 32px);
+		margin: 16px;
+		padding: 24px 28px 26px 24px;
+		border-radius: 8px;
+		box-shadow: 0 0 0 1px rgba(1,22,30,.025),0 10px 24px rgba(1,22,30,.1),0 6px 10px 0 rgba(1,22,30,.05);
+	}
+	svg{
+		display: block;
+		fill: currentcolor;
+		pointer-events: none;
+	}
+	.feature-grid li span{
+		font-size: 14px;
+		font-weight: 500;
+		display: block;
+		padding-top: 6px;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	.feature-grid li small{
+		position: relative;
+		font-size: 11px;
+		font-weight: 700;
+		text-transform: uppercase;
+		top: -1px;
+		padding: 1px 6px 2px;
+		background-color: #FFBF00;
+		color: #FFFFFF;
+		border-radius: 20px;
+		white-space: nowrap;
+	}
+
+
+	section .center #menubar{
+		background: hsla(0,0%,100%,.9);
+		position: relative;
+		display: flex;
+		width: 100vw;
+		align-items: center;
+		justify-content: center;
+		padding: 8px;
+		box-shadow:   0 20px 20px 0 rgba(1,22,30,.1);
+	}
+
+	section .center #window{
+		background: url(../img/LightWindow.ab6814c6.png) no-repeat;
+		background-size: 540px 266px;
+		box-shadow: 0 0 .5px .5px rgba(1,22,30,.1),0 0 0 1px rgba(1,22,30,.025),0 0 20px rgba(1,22,30,.2),0 20px 20px 0 rgba(1,22,30,.1);
+		position: relative;
+		width: 540px;
+		height: 266px;
+		border-radius: 4px;
+		margin-bottom: -36px;
+		margin-left: auto;
+		margin-right: auto;
+		z-index: 2;
+		align-items: center;
+		justify-content: center;
+	}
+	.center #toggle{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		list-style: none;
+		margin: 120px auto;
+	}
+	.center #toggle li{
+		color: #FFFFFF;
+		transition: opacity .1s ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.center #toggle li.switch{
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 8rem;
+		height: 5rem;
+		margin: 0 24px;
+	}
+	.center #toggle li .moon{
+		opacity: .5;
+	}
+	.center #toggle li.switch input{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border-radius: 40px;
+		-webkit-appearance: none;
+		appearance: none;
+		z-index: 1;
+		border: none;
+		box-shadow: none;
+		cursor: pointer;
+		background: rgba(1,22,30,.25);
+		transition: background .1s ease-in-out;
+	}
+	.center #toggle li.switch input + span{
+		transform: translateX(0);
+	}
+	.center #toggle li.switch span{
+		position: relative;
+		width: 64px;
+		height: 64px;
+		margin: 8px;
+		z-index: 2;
+		pointer-events: none;
+		transition: transform .1s ease-in-out;
+	}
+	.center #toggle li.switch span::after{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-radius: 32px;
+		box-shadow: 0 .5px 0 rgba(1,22,30,.1),0 1px 2px rgba(1,22,30,.1);
+		background: #fff;
+		transition: transform .1s ease-in-out,opacity .1s ease-in-out;
+	}
+	aside #features{
+		position: relative;
+		font-size: 16px;
+		font-weight: 600;
+		padding-top: 12px;
+		width: 100%;
+		text-align: center;
+	}
+	#reflection{
+		position: relative;
+		height: 100px;
+		transform: scaleY(-1);
+		z-index: 1;
+	}
+	#support{
+		background: rgba(1,22,30,.03);
+	}
+	aside  #support{
+		margin: 40px auto;
+		padding: 24px 28px 26px;
+		border-radius: 8px;
+	}
+	aside #support a{
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		font-size: 18px;
+		color: inherit;
+		text-decoration: none;
+	}
+	aside #support a svg{
+		margin-right: 8px;
+		transition: transform .1s ease-in-out;
+	}
+	footer{
+		box-shadow: inset 0 1px 0 rgba(1,22,30,.05);
+		background: rgba(1,22,30,.03);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 20px;
+		font-size: 16px;
+		font-weight: 600;
+		padding: 60px 0;
+		max-width: 100%;
+	}
+	footer .signoff{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	footer p{
+		margin-left: 250px;
+		margin-right: auto;
+		max-width: 580px;
+		padding-right: 60px;
+		margin-bottom: 30px;
+	}
+	footer a#replay{
+		transition:color .2s ease;
+		margin-bottom: 30px;
+	}
+	footer a#replay svg{
+		margin-right: 250px;
+		margin-top: 6px;
+	}
+	footer small{
+		margin-left: 250px;
+		font-size: 12px;
+		width: 100%;
+		opacity: .5;
+	}
+	footer p a{
+		position: relative;
+		font-weight: 700;
+		text-decoration: none;
+		color: #01161e;
+	}
+	footer p a.almonk, footer p a.dizzyup {
+	    padding-left: 24px;
+	    margin: 0 2px;
+	    white-space: nowrap;
+	}
+	footer p a::before{
+		content: "";
+		position: absolute;
+		top: -1px;
+		left: 0;
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+	}
+	footer p a:hover{
+		text-decoration: underline;
+	}
+	footer a#replay:hover,footer a.replay, footer a.replay:hover{
+		color: #3655d1;
+	}
+	footer p a.almonk::before{
+		background: url(../img/Alasdair.acf18e76.jpg) 50% no-repeat;
+		background-size: cover;
+		box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	}
+	footer p a.dizzyup::before{
+		background: url(../img/Hector.3af3569c.jpg) 50% no-repeat;
+		background-size: cover;
+		box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	}
+	section .center .credit{
+		position: absolute;
+		left: 14px;
+		bottom: 14px;
+		color: hsla(0,0%,100%,.7);
+		font-size: 12px;
+		font-weight: 500;
+		z-index: 1;
+	}
+	section .center .credit a{
+		display: none;
+		align-items: center;
+		color: hsla(0,0%,100%,.6);
+		text-decoration: none;
+		transition: color .2s ease;
+	}
+	section .center .credit a.light-credit{
+		display: flex;
+	}
+	section .center .credit a svg{
+		margin-right: 4px;
+	}
+	
