@@ -1,10 +1,10 @@
 .top_area{
-    height: 666px;
+    height: 722px;
     background-image: -webkit-linear-gradient(0deg, #bfacff 0%, #795fff 100%);
 }
 .top-area-backgoud{
     background:url(../img/header-bg.jpg);
-    height: 666px;
+    height: 722px;
 }
 .top_area{
     opacity: .95;
@@ -29,7 +29,7 @@
     width: 65%;
 }
 .menu-nav a{
-    padding: 6px 10px;
+    padding: 0px 10px;
     text-decoration: none;
     display: inline-block;
     color: #fff;
@@ -37,6 +37,8 @@
     font-size: 12px;
     text-transform: uppercase;
     outline: none;
+    height: 30px;
+    line-height: 30px;
 }
 .nav-items{
     list-style: none;
@@ -64,7 +66,7 @@
     margin: 0 auto;
     width: 83%;
     height: 300px;
-    margin-top:100px;
+    margin-top:210px;
 }
 .text-lay{
     text-align: center;
