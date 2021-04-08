@@ -185,6 +185,7 @@
 }
 .service_area{
     /* border: 1px red solid; */
+    margin-bottom: 60px;
     height: 700px;
 }
 .text_center{
@@ -290,7 +291,7 @@
 }
 .black_area{
     background-color: #04091e;
-    height: 700px;
+    height: 900px;
 }
 .black_Courses h1{
     font-family: "Poppins", sans-serif;
@@ -380,6 +381,8 @@
     background: url(/img/faq-bg.jpg) center;
     height: 540px;
     background-size: 100%;
+    background-repeat: no-repeat;
+    
 }
 .question_card{
     margin-top: 20px;
